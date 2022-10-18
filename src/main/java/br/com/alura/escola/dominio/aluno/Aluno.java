@@ -1,4 +1,4 @@
-package escola;
+package br.com.alura.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,9 @@ public class Aluno {
     private CPF cpf;
     private String nome;
     private Email email;
+
+    public Aluno(CPF cpf, String nome, Email email) {
+    }
 
     public CPF getCpf() {
         return cpf;

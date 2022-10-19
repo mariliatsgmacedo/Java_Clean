@@ -11,14 +11,18 @@ public class Aluno {
     public Aluno(CPF cpf, String nome, Email email) {
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumero();
     }
     public String getNome() {
         return nome;
     }
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
     }
 
     //um aluno pode ter varios numeros de telefone

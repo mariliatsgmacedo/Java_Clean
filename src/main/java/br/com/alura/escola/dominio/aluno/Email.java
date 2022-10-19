@@ -1,6 +1,10 @@
 package br.com.alura.escola.dominio.aluno;
 
 public class Email {
+    public String getEndereco() {
+        return endereco;
+    }
+
     //VALUE OBJECT AQUI NAO TEMOS UMA MANEIRA DE IDENTIFICAR UMA INSTANCIA QUE SEJA UNICA
     private String endereco;
 
